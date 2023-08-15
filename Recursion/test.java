@@ -1,7 +1,8 @@
 // import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class test extends SquareRoot {
+public class test extends SelectionSortRecursion {
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -34,8 +35,12 @@ public class test extends SquareRoot {
         // System.out.println(obj6.multiple(new int[]{1,2,3,4,5,4,12,1}, 4, 0));
 
 
-        RecRotated_leet81 obj7=new RecRotated_leet81();
-        System.out.println(obj7.search(new int[]{1,2,1,1,1},2));
+        // RecRotated_leet81 obj7=new RecRotated_leet81();
+        // System.out.println(obj7.search(new int[]{1,2,1,1,1},2));
+
+
+        SelectionSortRecursion obj8=new SelectionSortRecursion();
+        System.out.println(Arrays.toString(obj8.recSelectionSort(new int[]{5,2,8,1,9,4},0)));
 
         in.close();
     }
