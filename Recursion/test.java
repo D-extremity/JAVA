@@ -2,7 +2,9 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class test extends SelectionSortRecursion {
+import Sorting.Merge;
+
+public class test extends Merge {
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -39,8 +41,12 @@ public class test extends SelectionSortRecursion {
         // System.out.println(obj7.search(new int[]{1,2,1,1,1},2));
 
 
-        SelectionSortRecursion obj8=new SelectionSortRecursion();
-        System.out.println(Arrays.toString(obj8.recSelectionSort(new int[]{5,2,8,1,9,4},0)));
+        // SelectionSortRecursion obj8=new SelectionSortRecursion();
+        // System.out.println(Arrays.toString(obj8.recSelectionSort(new int[]{5,2,8,1,9,4},0)));
+
+
+        Merge obj9=new Merge();
+        System.out.println(Arrays.toString(obj9.merge(new int[]{5,2,8,1,9,4})));
 
         in.close();
     }
