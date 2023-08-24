@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class InPlaceMergeSort {
     public static void main(String[] args) {
 
-        int arr[] = { 3, 5, 1, 2, 8, 9, 4, 7 };
+        int arr[] = { 12,34,754,234,6754,0,13,-23,-3432234,546567,45,443,-9,-9,-34,54};
         divide(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
 
