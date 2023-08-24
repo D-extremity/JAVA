@@ -1,5 +1,7 @@
 package Sorting;
-
+/*
+ * Go to https://github.com/D-extremity/JAVA/blob/master/ExtraStuff/InPlaceMerge.java For better Explanation
+ */
 import java.util.Arrays;
 
 public class InPlaceMergeSort {
