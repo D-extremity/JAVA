@@ -48,7 +48,7 @@ public class InPlaceMergeSort {
             mi++;
         }
 
-        for (int i = 0,j=start; i < merge.length; i++,j++) {
+        for (int i = 0, j = start; i < merge.length; i++, j++) {
             arr[j] = merge[i];
         }
     }
