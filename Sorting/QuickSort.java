@@ -47,6 +47,7 @@ public class QuickSort {
                  * start++;
                  * end--;
                  * has been done BECAUSE those elements has been checked and swapped therefore now move forward in array 
+                 * TO CHANGE THE PIVOT NOW, BECAUSE PREVIOUS PIVOT IS AT ITS CORRECT PLACE NOW
                  */
             }
         }
